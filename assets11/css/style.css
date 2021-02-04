@@ -1,8 +1,11 @@
 .container {
     border: 2px solid;
 }
-header {
-    border: 2px solid;
+.img {
+    background-image: url(../img/765d1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 main {
     border: 2px solid;
@@ -26,4 +29,42 @@ a {
 .shoes{
     background-image: url(../img/2bd.jpg);
     background-repeat: no-repeat;
+}
+.butomn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.top {
+    display: grid;
+    grid-gap: 20px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 3fr 1fr;                     
+}
+.header {
+    grid-area: 1 / 1 / 2 / 4;
+}
+.img {
+    grid-row: 2 / 3;
+    grid-column: 1/ 4
+}
+.handbags {
+    grid-row: 3 / 4;
+    grid-column:1/2
+}
+.watch {
+    grid-row: 3 / 4;
+    grid-column: 2/3
+}
+.shoes {
+    grid-row: 3 / 4;
+    grid-column:3/4
+}
+.footer {
+    grid-area: 2 /1 / 2 /5
 }
