@@ -1,0 +1,29 @@
+.container {
+    border: 2px solid;
+}
+header {
+    border: 2px solid;
+}
+main {
+    border: 2px solid;
+}
+footer {
+    border: 2px solid;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+.handbags {
+    background-image: url(../img/601.jpg);
+    background-repeat: no-repeat;
+
+}
+.watch {
+    background-image: url(../img/8908.jpg);
+    background-repeat: no-repeat;
+}
+.shoes{
+    background-image: url(../img/2bd.jpg);
+    background-repeat: no-repeat;
+}
